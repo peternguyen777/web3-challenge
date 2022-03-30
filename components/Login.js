@@ -7,21 +7,21 @@ function Login() {
   return (
     <div className='relative bg-black'>
       <h1>I am the Login Screen</h1>
-      <div className='flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4'>
+      <div className='absolute z-50 flex h-4/6 w-full flex-col items-center justify-center space-y-4'>
         <Image
-          className='object-cover rounded-full'
+          className='rounded-full object-cover'
           src='https://links.papareact.com/3pi'
           height={200}
           width={200}
         />
         <button
-          className='bg-yellow-500 rounded-lg p-5 animate-pulse'
+          className='animate-pulse rounded-lg bg-yellow-500 p-5'
           onClick={authenticate}
         >
           Login to the Metaverse
         </button>
       </div>
-      <div className='w-full h-screen'>
+      <div className='h-screen w-full'>
         <Image
           src='https://links.papareact.com/55n'
           layout='fill'
