@@ -8,14 +8,14 @@ function Login() {
     <div className='relative bg-black'>
       <h1>I am the Login Screen</h1>
       <div className='absolute z-50 flex h-4/6 w-full flex-col items-center justify-center space-y-4'>
-        <Image
+        {/* <Image
           className='rounded-full object-cover'
           src='https://links.papareact.com/3pi'
           height={200}
           width={200}
-        />
+        /> */}
         <button
-          className='animate-pulse rounded-lg bg-yellow-500 p-5'
+          className='animate-pulse rounded-full border-4 border-blue-400 bg-black p-5 text-white'
           onClick={authenticate}
         >
           Login to the Metaverse
